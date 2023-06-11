@@ -1,46 +1,46 @@
 const staff = [
   {
-    imgSrc: 'assets/images/staff/getulio.jpg',
+    imgSrc: './assets/images/staff/getulio.jpg',
     name: 'Getúlio Américo Moreira Lopes',
     occupation: 'Reitor',
   },
   {
-    imgSrc: 'assets/images/staff/labibi.jpg',
+    imgSrc: './assets/images/staff/labibi.jpg',
     name: 'Labibi Elias Alves da Silva',
     occupation: 'Vice-Reitora',
   },
   {
-    imgSrc: 'assets/images/staff/gabriel.jpg',
+    imgSrc: './assets/images/staff/gabriel.jpg',
     name: 'Gabriel Costa Mallab',
     occupation: 'Pró-Reitor Administrativo e Financeiro',
   },
   {
-    imgSrc: 'assets/images/staff/marcia-lucia.png',
+    imgSrc: './assets/images/staff/marcia-lucia.png',
     name: 'Lúcia Maria Lopes',
     occupation: 'Pró-Reitora Acadêmica',
   },
   {
-    imgSrc: 'assets/images/staff/mauricio.jpg',
+    imgSrc: './assets/images/staff/mauricio.jpg',
     name: 'Maurício de Sousa Neves Filho',
     occupation: 'Secretário-Geral',
   },
   {
-    imgSrc: 'assets/images/staff/geraldo.jpg',
+    imgSrc: './assets/images/staff/geraldo.jpg',
     name: 'Geraldo Rabelo',
     occupation: 'Diretor Administrativo e Financeiro',
   },
   {
-    imgSrc: 'assets/images/staff/carlos-alberto.png',
+    imgSrc: './assets/images/staff/carlos-alberto.png',
     name: 'Carlos Alberto da Cruz',
     occupation: 'Diretor Acadêmico',
   },
   {
-    imgSrc: 'assets/images/staff/joao.jpg',
+    imgSrc: './assets/images/staff/joao.jpg',
     name: 'João Herculino de Souza Lopes Filho',
     occupation: 'Diretor do Instituto CEUB de Pesquisa e Desenvolvimento - ICPD',
   },
   {
-    imgSrc: 'assets/images/staff/simone.jpg',
+    imgSrc: './assets/images/staff/simone.jpg',
     name: 'Simone Maria Espinosa',
     occupation: 'Diretora Institucional de Regulação e Avaliação - DIRA',
   },
