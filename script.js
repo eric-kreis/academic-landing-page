@@ -77,14 +77,15 @@ const states = [
 ];
 
 function toPascalCase(str) {
-  return str[0].toUpperCase() + str.slice(1);
+  if (str.length > 0) return str[0].toUpperCase() + str.slice(1);
+  return str;
 }
 
-function captalize(str) {
+function capitalize(str) {
   const words = str.trim().split(' ');
   return words.reduce((acc, curr) => {
-    const pascalWord = toPascalCase(curr)
-    return !acc ? pascalWord : `${acc} ${pascalWord}`
+    const pascalWord = toPascalCase(curr);
+    return !acc ? pascalWord : `${acc.trim()} ${pascalWord}`;
   }, '');
 }
 
@@ -148,7 +149,7 @@ function sendForm() {
   const state = selectState.value;
 
   if (name && email && city && state) {
-    window.alert(`Muito obrigado ${captalize(name)}, sua inscrição foi concluída!`);
+    window.alert(`Muito obrigado ${capitalize(name)}, sua inscrição foi concluída!`);
   } else {
     window.alert('Verifique os dados preenchidos e tente novamente');
   }
