@@ -1,47 +1,47 @@
 const staff = [
   {
-    imgSrc: './assets/images/staff/getulio.jpg',
-    name: 'Getúlio Américo Moreira Lopes',
+    imgSrc: './assets/images/staff/jorge.jpeg',
+    name: 'Jorge Lopes',
     occupation: 'Reitor',
   },
   {
-    imgSrc: './assets/images/staff/labibi.jpg',
-    name: 'Labibi Elias Alves da Silva',
+    imgSrc: './assets/images/staff/labibi.jpeg',
+    name: 'Labibi Rocha',
     occupation: 'Vice-Reitora',
   },
   {
-    imgSrc: './assets/images/staff/gabriel.jpg',
-    name: 'Gabriel Costa Mallab',
+    imgSrc: './assets/images/staff/juan.jpeg',
+    name: 'Juan Pedrada',
     occupation: 'Pró-Reitor Administrativo e Financeiro',
   },
   {
-    imgSrc: './assets/images/staff/marcia-lucia.jpg',
-    name: 'Lúcia Maria Lopes',
+    imgSrc: './assets/images/staff/luiza.jpeg',
+    name: 'Luiza Santos',
     occupation: 'Pró-Reitora Acadêmica',
   },
   {
-    imgSrc: './assets/images/staff/mauricio.jpg',
-    name: 'Maurício de Sousa Neves Filho',
+    imgSrc: './assets/images/staff/marcos.jpeg',
+    name: 'Marcos Pinto',
     occupation: 'Secretário-Geral',
   },
   {
-    imgSrc: './assets/images/staff/geraldo.jpg',
-    name: 'Geraldo Rabelo',
+    imgSrc: './assets/images/staff/lucas.jpeg',
+    name: 'Lucas Luan',
     occupation: 'Diretor Administrativo e Financeiro',
   },
   {
-    imgSrc: './assets/images/staff/carlos-alberto.jpg',
-    name: 'Carlos Alberto da Cruz',
+    imgSrc: './assets/images/staff/felipe.jpeg',
+    name: 'Felipe Cardoso',
     occupation: 'Diretor Acadêmico',
   },
   {
-    imgSrc: './assets/images/staff/joao.jpg',
-    name: 'João Herculino de Souza Lopes Filho',
+    imgSrc: './assets/images/staff/enzo.jpeg',
+    name: 'Enzo Filho',
     occupation: 'Diretor do Instituto CEUB de Pesquisa e Desenvolvimento - ICPD',
   },
   {
-    imgSrc: './assets/images/staff/simone.jpg',
-    name: 'Simone Maria Espinosa',
+    imgSrc: './assets/images/staff/solange.jpeg',
+    name: 'Solange Alencar',
     occupation: 'Diretora Institucional de Regulação e Avaliação - DIRA',
   },
 ];
@@ -161,3 +161,9 @@ function main() {
 }
 
 main();
+
+/*
+  Ela poderia, por exemplo, enviar uma requisição HTTP do tipo POST para um endpoint
+  responsável por salvar o e-mail em um Banco de Dados...
+*/
+
