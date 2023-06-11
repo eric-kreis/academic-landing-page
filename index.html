@@ -1,17 +1,266 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page</title>
+  <link rel="icon" href="assets/icons/favicon.webp">
+  <link rel="stylesheet" href="styles.css">
+  <title>CEUB</title>
 </head>
+
 <body>
   <header>
+    <img src="/assets/images/logos/negative-lilac.png" alt="CEUB">
+    <ul class="nav-links">
+      <li><a href="#modalities">modalidades</a></li>
+      <li><a href="#courses">cursos</a></li>
+      <li><a href="#about">instituição</a></li>
+      <li><a href="#staff">corpo diretivo</a></li>
+    </ul>
   </header>
   <main>
+    <section id="introduction">
+      <img src="/assets/images/campus.png" alt="campus">
+      <h1 class="bold-text">Boas vindas à Tecnologia da Informação do Centro Universitário de Brasília!</h1>
+    </section>
+    <section id="modalities" class="main-section">
+      <h1 class="section-title">Modalidades</h1>
+      <div class="modalities-container">
+        <div class="modality">
+          <div>
+            <h2>Graduação EAD</h2>
+            <h3>Flexibilidade para o seu sucesso</h3>
+          </div>
+          <div class="modality-description">
+            <p>
+              Nossos cursos de graduação na modalidade de Educação a Distância (EAD) oferecem a flexibilidade necessária
+              para conciliar os estudos com outras responsabilidades. Com aulas online e materiais de apoio disponíveis
+              a qualquer hora, você poderá estudar no seu próprio ritmo, sem abrir mão da qualidade de ensino que o CEUB
+              oferece.
+            </p>
+            <p>
+              Além disso, a graduação EAD oferece a oportunidade de interagir com professores e colegas por meio de
+              fóruns de discussão e outras ferramentas de comunicação online, garantindo uma experiência de aprendizado
+              colaborativa mesmo à distância.
+            </p>
+          </div>
+          <img src="assets/images/ead.jpg" alt="Campus EAD">
+        </div>
+        <hr />
+        <div class="modality">
+          <div>
+            <h2>Graduação Presencial</h2>
+            <h3>Aprendizado colaborativo e imersivo</h3>
+          </div>
+          <div class="modality-description">
+            <p>
+              A experiência de estudar presencialmente no CEUB é enriquecedora. Nossos cursos presenciais oferecem um
+              ambiente dinâmico e interativo, com professores qualificados e infraestrutura moderna.
+            </p>
+            <p>
+              Você terá a oportunidade de participar de discussões em sala de aula, realizar projetos práticos e
+              interagir diretamente com seus colegas de curso, o que contribui para o desenvolvimento de habilidades de
+              trabalho em equipe e networking. Além disso, nossos laboratórios e espaços de aprendizado proporcionam uma
+              imersão completa nas áreas de estudo, preparando você de forma efetiva para os desafios da sua carreira.
+            </p>
+          </div>
+          <img src="assets/images/library.jpeg" alt="">
+        </div>
+      </div>
+    </section>
+    <section id="courses" class="main-section">
+      <h1 class="section-title">Cursos</h1>
+      <div class="courses-container">
+        <section>
+          <h2 class="course-modality-title bold-text">EAD</h2>
+          <div>
+            <div class="course-container">
+              <img src="assets/images/courses/systems-analysis-development.jpg"
+                alt="Análise e Desenvolvimento de Sistemas">
+              <div class="course-data">
+                <h3>Análise e Desenvolvimento de Sistemas</h3>
+                <ul>
+                  <li class="bold-text">Tipo <span>Tecnólogo</span></li>
+                  <li class="bold-text">Duração <span>5 semestres</span></li>
+                  <li class="bold-text">Turno <span>EAD - Flexível</span></li>
+                  <li class="bold-text">Campus <span>Campus Virtual</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="course-container">
+              <img src="assets/images/courses/databases.jpg" alt="Banco de Dados">
+              <div class="course-data">
+                <h3>Banco de Dados (com Análise de Dados)</h3>
+                <ul>
+                  <li class="bold-text">Tipo <span>Tecnólogo</span></li>
+                  <li class="bold-text">Duração <span>5 semestres</span></li>
+                  <li class="bold-text">Turno <span>EAD - Flexível</span></li>
+                  <li class="bold-text">Campus <span>Campus Virtual</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="course-container">
+              <img src="assets/images/courses/it-management.jpg" alt="Gestão da Tecnologia da Informação">
+              <div class="course-data">
+                <h3>Gestão da Tecnologia da Informação</h3>
+                <ul>
+                  <li class="bold-text">Tipo <span>Tecnólogo</span></li>
+                  <li class="bold-text">Duração <span>5 semestres</span></li>
+                  <li class="bold-text">Turno <span>EAD - Flexível</span></li>
+                  <li class="bold-text">Campus <span>Campus Virtual</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="course-container">
+              <img src="assets/images/courses/computer-network.jpg" alt="Rede de Computadores">
+              <div class="course-data">
+                <h3>Redes de Computadores</h3>
+                <ul>
+                  <li class="bold-text">Tipo <span>Tecnólogo</span></li>
+                  <li class="bold-text">Duração <span>5 semestres</span></li>
+                  <li class="bold-text">Turno <span>EAD - Flexível</span></li>
+                  <li class="bold-text">Campus <span>Campus Virtual</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="course-container">
+              <img src="assets/images/courses/it-security.jpg" alt="Segurança da Informação">
+              <div class="course-data">
+                <h3>Segurança da Informação</h3>
+                <ul>
+                  <li class="bold-text">Tipo <span>Tecnólogo</span></li>
+                  <li class="bold-text">Duração <span>5 semestres</span></li>
+                  <li class="bold-text">Turno <span>EAD - Flexível</span></li>
+                  <li class="bold-text">Campus <span>Campus Virtual</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2 class="course-modality-title bold-text">Presencial</h2>
+          <div>
+            <div class="course-container">
+              <img src="assets/images/courses/systems-analysis-development.jpg"
+                alt="Análise e Desenvolvimento de Sistemas">
+              <div class="course-data">
+                <h3>Análise e Desenvolvimento de Sistemas</h3>
+                <ul>
+                  <li class="bold-text">Tipo <span>Tecnólogo</span></li>
+                  <li class="bold-text">Duração <span>5 semestres</span></li>
+                  <li class="bold-text">Turno <span>Matutino, Noturno, Vespertino</span></li>
+                  <li class="bold-text">Campus <span>Asa Norte, Taguatinga II</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="course-container">
+              <img src="assets/images/courses/computer-science.jpg" alt="Ciência da Computação">
+              <div class="course-data">
+                <h3>Ciência da Computação</h3>
+                <ul>
+                  <li class="bold-text">Tipo <span>Bacharelado</span></li>
+                  <li class="bold-text">Duração <span>8 semestres</span></li>
+                  <li class="bold-text">Turno <span>Matutino, Noturno, Vespertino</span></li>
+                  <li class="bold-text">Campus <span>Asa Norte, Taguatinga II</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="course-container">
+              <img src="assets/images/courses/machine-learning.jpg" alt="Machine Learning">
+              <div class="course-data">
+                <h3>Ciência de Dados e Machine Learning</h3>
+                <ul>
+                  <li class="bold-text">Tipo <span>Bacharelado</span></li>
+                  <li class="bold-text">Duração <span>7 semestres</span></li>
+                  <li class="bold-text">Turno <span>Matutino</span></li>
+                  <li class="bold-text">Campus <span>Asa Norte, Taguatinga II</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section id="about" class="main-section">
+      <h1 class="section-title">Instituição</h1>
+      <p class="full-paragraph">
+        Ao longo de mais de cinco décadas, temos sido pioneiros no fornecimento de um ensino superior de excelência em
+        Brasília. Desde os anos 1990, nos estabelecemos como o primeiro centro universitário da região, sendo hoje
+        amplamente reconhecidos por nossa qualidade educacional. Com um enfoque em inovação e excelência, estamos
+        constantemente nos renovando e disponibilizamos mais de 20 cursos de graduação abrangendo diversas áreas, como
+        ciências jurídicas, sociais, exatas, saúde, educação e tecnologia.
+      </p>
+      <p class="full-paragraph">
+        Possuímos um dos melhores sistemas de ensino superior no Centro-Oeste. Com um histórico de mais de 100 mil
+        graduados, nossos cursos são fundamentados em propostas pedagógicas atualizadas e modernas, constantemente
+        adaptadas às demandas do mercado.
+      </p>
+      <p class="full-paragraph">
+        Nossos professores são especialistas, doutores e profissionais altamente respeitados em suas áreas de atuação.
+        Além disso, contamos com uma infraestrutura de qualidade, incluindo laboratórios bem equipados com tecnologia de
+        ponta, garantindo que nossos alunos tenham acesso às melhores ferramentas disponíveis no mercado.
+      </p>
+      <p class="full-paragraph">
+        Adicionalmente, oferecemos serviços comunitários em um edifício de 14 andares dedicado exclusivamente à prática
+        profissional de nossos estudantes. Todo esse conjunto nos posiciona como uma instituição de ensino inovadora,
+        com um padrão de qualidade educacional amplamente reconhecido em todo o país.
+      </p>
+    </section>
+    <section id="staff" class="main-section">
+      <h1 class="section-title">Corpo Diretivo</h1>
+      <ul id="staff-list"></ul>
+    </section>
+    <section id="form-container" class="main-section">
+      <h1 class="section-title">Saiba Mais</h1>
+      <h3>Preencha o formulário abaixo para saber mais informações sobre cursos e modalidades:</h2>
+        <form id="info-form" onsubmit="event.preventDefault();">
+          <input id="info-form-name" type="text" placeholder="Nome">
+          <input id="info-form-email" type="email" placeholder="E-mail">
+          <input id="info-form-city" type="text" placeholder="Cidade">
+          <select id="states-select" name="state">
+            <option value="" disabled selected>Estado</option>
+          </select>
+          <button type="submit" onclick="sendForm();">Enviar</button>
+        </form>
+    </section>
   </main>
   <footer>
+    <img src="/assets/images/logos/negative-lilac.png" alt="CEUB"/>
+    <div class="units">
+      <p class="bold-text">Unidades: </p>
+      <ul>
+        <li>Campus da Asa Norte: SEPN 707/907 - Campus Universitário</li>
+        <li>Campus II de Taguatinga: QS 1, Lote 1/17, Rua 214</li>
+        <li>Centro de Atendimento à Comunidade: Setor Comercial Sul, Quadra 1 - Edifício União, Brasília-DF</li>
+      </ul>
+    </div>
+    <ul class="social-media">
+      <li>
+        <a class="icon" href="https://www.facebook.com/uniceub">
+          <img src="/assets/icons/facebook.svg" alt="Facebook" />
+        </a>
+      </li>
+      <li>
+        <a class="icon" href="https://www.instagram.com/uniceub_oficial/">
+          <img src="/assets/icons/instagram.svg" alt="Instagram" />
+        </a>
+      </li>
+      <li>
+        <a class="icon" href="https://www.linkedin.com/school/uniceub-centro-universitario-de-brasilia/?originalSubdomain=pt">
+          <img src="/assets/icons/linkedin.svg" alt="Linkedin" />
+        </a>
+      </li>
+      <li>
+        <a class="icon" href="https://www.youtube.com/user/uniceub">
+          <img src="/assets/icons/youtube.svg" alt="outube" />
+        </a>
+      </li>
+    </ul>
+    </footer>
   </footer>
+  <script src="script.js"></script>
 </body>
+
 </html>
