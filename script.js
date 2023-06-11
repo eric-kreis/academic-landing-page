@@ -15,7 +15,7 @@ const staff = [
     occupation: 'Pró-Reitor Administrativo e Financeiro',
   },
   {
-    imgSrc: './assets/images/staff/marcia-lucia.png',
+    imgSrc: './assets/images/staff/marcia-lucia.jpg',
     name: 'Lúcia Maria Lopes',
     occupation: 'Pró-Reitora Acadêmica',
   },
@@ -30,7 +30,7 @@ const staff = [
     occupation: 'Diretor Administrativo e Financeiro',
   },
   {
-    imgSrc: './assets/images/staff/carlos-alberto.png',
+    imgSrc: './assets/images/staff/carlos-alberto.jpg',
     name: 'Carlos Alberto da Cruz',
     occupation: 'Diretor Acadêmico',
   },
